@@ -374,6 +374,72 @@
           </div>
         </div>
       </section>
+
+
+      <section class="container section justify-content-center text-center">
+            <h1>Reserve a game</h1>
+            <div class="row">
+                <div class="col-12 col-md-8 mx-auto text-xl-start mt-3">
+            <p>Reserve a board game for your next visit to Boardwalk Games. Pick your challenge, and let the adventure begin!
+                Fill out your details and preferred game below, and we'll have it set aside for you when you arrive.
+            </p>
+        
+        <!--Table for reserve a game -->
+
+        <section id="reserve" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <form action="success.html" method="GET">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="name" class="form-label">Full name</label>
+                                <input class="form-control" id="name" name="full-name" type="text" required>
+                            </div> 
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                           
+                            <div class="col-12 col-lg-8 mb-3">
+                                <label for="event-type" class="form-label">Select game</label>
+                                <select id="event-type" class="form-select" name="game-type" required>
+                                    <option value="" selected>Select game</option>
+                                    <option value="regular-play">Reserve a table</option>
+                                    <option value="dnd">Dungeons & Dragons</option>
+                                    <option value="retro-night">Retro Game Night</option>
+                                    <option value="tournament">Tournament</option>
+                                    <option value="kids-party">Kids party</option>
+                                </select>
+                            </div>
+                         <div class="col-12 col-lg-4 mb-3">
+  <label for="requested-date" class="form-label">Requested date</label>
+  <input 
+    class="form-control" 
+    id="requested-date" 
+    name="requested-date" 
+    type="date" 
+    required
+  >
+</div>
+                           
+                        </div>
+                        <div class="text-end mt-3">
+                        <button type="submit" class="btn custom-button-filled-2">Submit</button></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        
+        </div>
+        
+        </div>
+
+      </section>
     </main>
 
 
