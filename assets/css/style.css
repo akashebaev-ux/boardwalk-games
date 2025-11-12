@@ -118,6 +118,27 @@ margin-bottom: 2rem;
 
 }
 
+/*Join our events*/
+
+td:hover {
+        background-color: var(--highlight-color);
+
+}
+.row * {
+    padding-right: 0;
+}
+
+#date {
+    width: 25px;
+    padding-right: 2rem; 
+}
+
+#table .btn {
+    padding: 10px;
+    border-radius: 0;
+
+}
+
 /*Footer/contact*/
 
 #contact {
