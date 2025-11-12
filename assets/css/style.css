@@ -124,9 +124,7 @@ td:hover {
         background-color: var(--highlight-color);
 
 }
-.row * {
-    padding-right: 0;
-}
+
 
 #date {
     width: 25px;
