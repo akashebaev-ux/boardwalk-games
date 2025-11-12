@@ -68,6 +68,28 @@ margin-bottom: 2rem;
     margin-bottom: 1.5rem;
 }
 
+/*Fav-games*/
+#new-games .card {
+    margin-bottom: 1.5rem;
+}
+
+#new-games .card-footer {
+    background-color: transparent;
+    border: none;
+}
+
+#fav-games .card{
+    margin-bottom: 1.5rem;
+
+}
+
+#fav-games .card-footer {
+    background-color: transparent;
+    border: none;
+
+}
+
+
 
 /*grid visualisation CSS for testing*/
 
@@ -91,6 +113,15 @@ margin-bottom: 2rem;
     #services .card-body {
         min-height: 191px;
     }
+    #new-games .card-body {
+         min-height: 150px;
+    } 
+    
+    #fav-games .card-body {
+
+         min-height: 214px;
+    }
+   
     
 }
 
@@ -100,7 +131,15 @@ margin-bottom: 2rem;
     #services .card-body {
         min-height: auto;
     }
+    #new-games.card-body {
+         min-height: auto;
+    }  
     
+    #fav-games.card-body {
+
+         min-height: auto;
+    }
+   
 }
 
 /*Extra large devices (laptops, 1200px and up)*/
@@ -109,7 +148,15 @@ margin-bottom: 2rem;
     #services .card-body {
         min-height: 220px;
     }
+        #new-games .card-body {
+         min-height: 193px;
+    }  
     
+    #fav-games .card-body {
+
+         min-height: 241px;
+    }
+   
 }
 
 /*Extra extra large devices (PC, 1400px and up)*/
@@ -118,5 +165,13 @@ margin-bottom: 2rem;
     #services .card-body {
         min-height: 195px;
     }
+    #new-games .card-body {
+         min-height: 170px;
+    }
     
+    #fav-games .card-body {
+
+         min-height: 217px;
+    }
+ 
 }
