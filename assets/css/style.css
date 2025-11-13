@@ -126,12 +126,12 @@ td:hover {
 }
 
 
-#date {
+.date1 {
     width: 25px;
     padding-right: 2rem; 
 }
 
-#table .btn {
+#table1 .btn {
     padding: 10px;
     border-radius: 0;
 
